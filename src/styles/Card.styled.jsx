@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardWrapper = styled.main`
+export const CardWrapper = styled.section`
 	
 	background-color: hsl(216, 50%, 16%);
 	width:350px;
