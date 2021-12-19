@@ -9,7 +9,7 @@ const CardImage = ({ image }) =>
 			<CardImageOverlay>
 				<img src={view} alt='view' />
 			</CardImageOverlay>
-			<CardPicture width={"100"} height={"100"} src={image} alt='nft' />
+			<CardPicture width={"100%"} height={"100%"} src={image} alt='nft' />
 
 		</CardImageWrapper>
 	)
