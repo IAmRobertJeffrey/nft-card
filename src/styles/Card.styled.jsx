@@ -109,8 +109,8 @@ export const NftPrice = styled.div`
 	gap:7.5px;
 	align-items:center;
 	color:hsl(178, 100%, 50%);
-	font-weight:600;
-	font-size:18px;
+	font-weight:400;
+	font-size:16px;
 `
 
 export const NftTimeLeft = styled.div`
