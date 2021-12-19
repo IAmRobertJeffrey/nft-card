@@ -18,7 +18,7 @@ export const CardWrapper = styled.main`
 
 `
 
-export const CardImageWrapper = styled.main`
+export const CardImageWrapper = styled.div`
 	width:100%;
 	border-radius:0.5rem;
 	display:grid;
@@ -60,7 +60,7 @@ export const CardPicture = styled.img`
 	 
 `
 
-export const CardContentWrapper = styled.main`
+export const CardContentWrapper = styled.div`
 	
 `
 
@@ -83,7 +83,7 @@ export const CardContentDescription = styled.p`
 	margin-bottom:25px;
 `
 
-export const CardFooterWrapper = styled.main`
+export const CardFooterWrapper = styled.div`
 	display:flex;
 	gap:10px;
 	
