@@ -11,22 +11,25 @@ export const CardWrapper = styled.main`
   		0px 20px 104px rgba(0, 0, 0, 0.158);
 	padding:25px;
 	box-sizing:border-box;
+
+	@media (max-width: 365px) {
+		width:90%;
+  }
+
 `
 
 export const CardImageWrapper = styled.main`
 	width:100%;
 	border-radius:0.5rem;
 	display:grid;
-	
-
 	> img {
 		border-radius:0.5rem;
 	} 
 `
 
 export const CardImageOverlay = styled.div`
-	width:300px;
-	height:300px;
+	width:100%;
+	height:100%;
 	border-radius:0.5rem;
 	
 	background-color:rgba(0, 255, 247, 0%);
@@ -83,7 +86,7 @@ export const CardContentDescription = styled.p`
 export const CardFooterWrapper = styled.main`
 	display:flex;
 	gap:10px;
-	height:35px;
+	
 	align-items:center;
 	margin-top:15px;
 `
@@ -94,6 +97,11 @@ export const NftDetailsWrapper = styled.div`
 	width:100%;
 	height:fit-content;
 	margin-bottom:20px;
+
+	@media (max-width: 310px) {
+		flex-direction:column-reverse;
+		gap:10px;
+  }
 `
 
 export const NftPrice = styled.div`
@@ -125,17 +133,38 @@ export const CreatedByWrapper = styled.div`
  display: flex; 
  flex-direction:row;
  gap:6px ;
+
+ @media (max-width: 310px) {
+		flex-direction:column;
+		align-items:flex-start;
+		justify-content:center;
+		gap:0;
+		
+		
+  }
+
 `
 export const CreationOfLabel = styled.p`
 	color:hsl(215, 51%, 70%);
 	font-weight:400;
 	font-family: 'Outfit';
+
+	@media (max-width: 310px) {
+		
+		margin:0;
+		padding:0;
+  }
 `
 
 export const CreationOfText = styled.p`
 	color:white;
 	font-weight:400;
 	font-family: 'Outfit';
+	@media (max-width: 310px) {
+		
+		margin:0;
+		padding:0;
+  }
 
 	&:hover{
 		color:hsl(178, 100%, 50%);

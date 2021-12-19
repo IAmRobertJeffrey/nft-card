@@ -10,7 +10,7 @@ const CardContent = ({ content, title, price, timeLeft }) =>
 			<CardContentTitle>{title}</CardContentTitle>
 			<CardContentDescription>{content}</CardContentDescription>
 			<NftDetailsWrapper>
-				<NftPrice><img src={eth} alt='etherium price'></img>{price} ETH</NftPrice>
+				<NftPrice><img src={eth} alt='etherium price' />{price} ETH</NftPrice>
 				<NftTimeLeft><img src={clock} alt='time left'></img>{timeLeft}</NftTimeLeft>
 			</NftDetailsWrapper>
 			<DividingLine></DividingLine>

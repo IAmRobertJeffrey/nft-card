@@ -6,7 +6,7 @@ const CardFooter = ({ creator }) =>
 {
 	return (
 		<CardFooterWrapper>
-			<img style={{ border: "1px solid white", borderRadius: "50%" }} height={"100%"} src={avatar} alt='user avatar' />
+			<img style={{ border: "1px solid white", borderRadius: "50%", height: "35px", width: "35px" }} src={avatar} alt='user avatar' />
 			<CreatedByWrapper>
 				<CreationOfLabel>Creation of</CreationOfLabel>
 				<CreationOfText>{creator}</CreationOfText>

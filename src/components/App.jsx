@@ -1,6 +1,7 @@
 import Card from "./Card";
 import { useState } from "react";
-import image from './image-equilibrium.jpg'; // with import
+import image from '../img/image-equilibrium.jpg'; // with import
+import { AppWrapper } from "../styles/App.styled";
 
 function App()
 {
@@ -11,9 +12,11 @@ function App()
 	const [cardPrice] = useState(0.041)
 	const [cardTimeLeft] = useState("3 days left")
 	return (
-		<div className="App">
+		<AppWrapper>
 			<Card image={cardImage} title={cardTitle} content={cardContent} price={cardPrice} timeLeft={cardTimeLeft} creator={cardCreator} />
-		</div>
+
+
+		</AppWrapper>
 	);
 }
 
