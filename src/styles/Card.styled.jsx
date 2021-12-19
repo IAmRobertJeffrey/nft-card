@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardWrapper = styled.section`
+export const CardWrapper = styled.div`
 	
 	background-color: hsl(216, 50%, 16%);
 	width:350px;
@@ -31,7 +31,6 @@ export const CardImageOverlay = styled.div`
 	width:100%;
 	height:100%;
 	border-radius:0.5rem;
-	
 	background-color:rgba(0, 255, 247, 0%);
 	grid-area: overlay;
 	z-index:100;
@@ -52,8 +51,8 @@ export const CardImageOverlay = styled.div`
 
 
 export const CardPicture = styled.img`
-	width:100%;
-	 height:100%;
+	/* width:100%; */
+	 /* height:100%; */
 	 grid-area: image;
 	  src={image};
 	 
