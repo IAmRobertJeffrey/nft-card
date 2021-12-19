@@ -69,6 +69,8 @@ export const CardContentTitle = styled.p`
 	font-size: 22px;
 	font-family: 'Outfit'; 
 	font-weight: 600;
+	margin-top:25px;
+	margin-bottom:18px;
 
 	&:hover{
 		color:hsl(178, 100%, 50%);
